@@ -3,12 +3,15 @@
 #include <conio.h>
 using namespace std;
 int main(){
+//  Leyendo valores.
     double a, b ,c;
     cout << "Ingrese 3 numeros: "<<endl; cin >> a; cin >> b; cin >> c;
+// Casos inválidos.
 if ((a==b)||(a==c)||(c==b))
     {
         cout << "No pueden ser iguales.";
     }
+// Identificación de numeros mayores.
 else
 {
      if ((a<b)&&(c<b))
@@ -23,5 +26,5 @@ else
     }
 
 }
-    return 0;
+    return EXIT_SUCCESS;
 }
