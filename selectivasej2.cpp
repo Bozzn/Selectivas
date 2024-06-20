@@ -5,6 +5,7 @@ using namespace std;
 int factorial(int);
 int main(){
     int m, n;
+//Formula de la combinatoria:
     cout << "COMBINATORIA\n"; 
     cout << "Ingrese el valor de m: "; cin >> m;
     cout << "Ingrese el valor de n: "; cin >> n;
@@ -13,6 +14,7 @@ int main(){
     
     return EXIT_SUCCESS;
 }
+// Función Factorial.
 int factorial(int a){
     if (a > 1)
     {
