@@ -3,7 +3,7 @@
 #include <conio.h>
 using namespace std;
 int main(){
-//  Leyendo valores.
+//  Leyendo 3 valores.
     double a, b ,c;
     cout << "Ingrese 3 numeros: "<<endl; cin >> a; cin >> b; cin >> c;
 // Casos inválidos.
